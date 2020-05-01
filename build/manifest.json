@@ -1,5 +1,5 @@
 {
-  "build/app.css": "/build/app.a0d9ac93.css",
+  "build/app.css": "/build/app.2c687baa.css",
   "build/app.js": "/build/app.3e2cbf54.js",
   "build/runtime.js": "/build/runtime.cf4317a3.js",
   "build/assets/favicon/android-chrome-192x192.png": "/build/assets/favicon/android-chrome-192x192.png",
@@ -24,8 +24,8 @@
   "build/images/banner1.jpg": "/build/images/banner1.496d89d4.jpg",
   "build/images/banner2.jpg": "/build/images/banner2.04064941.jpg",
   "build/images/banner3.jpg": "/build/images/banner3.8d7d190c.jpg",
+  "build/images/corn.jpg": "/build/images/corn.405474af.jpg",
   "build/images/fa-brands-400.svg": "/build/images/fa-brands-400.82927ee1.svg",
   "build/images/fa-regular-400.svg": "/build/images/fa-regular-400.606e54f6.svg",
-  "build/images/fa-solid-900.svg": "/build/images/fa-solid-900.ff4da5ed.svg",
-  "build/images/grass-bg2.jpg": "/build/images/grass-bg2.c8f2f429.jpg"
+  "build/images/fa-solid-900.svg": "/build/images/fa-solid-900.ff4da5ed.svg"
 }
