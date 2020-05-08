@@ -22,7 +22,7 @@
 
     <title>International Case Studies - BioPrime</title>
     <link rel="manifest" href="/build/assets/favicon/site.webmanifest"/>
-    <link rel=icon href="/build/assets/favicon/favicon-32x32.png"><link rel="stylesheet" href="/build/app.c795419e.css" type="text/css"></head>
+    <link rel=icon href="/build/assets/favicon/favicon-32x32.png"><link rel="stylesheet" href="/build/app.00c62255.css" type="text/css"></head>
   <body id="top" itemscope itemtype="http://schema.org/WebPage" class="is-preload">
     <header id="header" class="bg-dark">
   <div class="container">
@@ -167,7 +167,7 @@
 <section>
 	<div class="case-studies-wrapper">
 	  <div>
-			<div class="px-3">
+			<div class="slider-item">
 				<div class="position-relative">
 					<img src="/img/sliders/sugarcane.jpg" class="w-100">
 					<div class="slider-caption p-3">
@@ -179,7 +179,7 @@
 		</div>
 
 		<div>
-			<div class="px-3">
+			<div class="slider-item">
 				<div class="position-relative">
 					<img src="/img/sliders/corn.jpg" class="w-100">
 					<div class="slider-caption p-3">
@@ -193,7 +193,7 @@
 		</div>
 
 		<div>
-			<div class="px-3">
+			<div class="slider-item">
 				<div class="position-relative">
 					<img src="/img/sliders/alfalfa.jpg" class="w-100">
 					<div class="slider-caption p-3">
@@ -207,7 +207,7 @@
 		</div>
 
 		<div>
-			<div class="px-3">
+			<div class="slider-item">
 				<div class="position-relative">
 					<img src="/img/sliders/coffeeberry.jpg" class="w-100">
 					<div class="slider-caption p-3">
@@ -221,7 +221,7 @@
 		</div>
 
 		<div>
-			<div class="px-3">
+			<div class="slider-item">
 				<div class="position-relative">
 					<img src="/img/sliders/nursery-plants.jpg" class="w-100">
 					<div class="slider-caption p-3">
@@ -265,9 +265,22 @@
 	$('.case-studies-wrapper').slick({
 		infinite: true,
 		slidesToShow: 1,
+		slidesToScroll: 1,
 		autoplay: true,
 		autoplaySpeed: 10000,
-		centerMode: true
+		centerMode: true,
+		centerPadding: '24px',
+		responsive : [
+			{
+				breakpoint: 600,
+				settings: {
+					arrows: true,
+					centerMode: true,
+					centerPadding: '16px',
+					slidesToShow: 1
+				}
+			}
+		]
 	});
 </script>
 
@@ -280,7 +293,7 @@
 <footer id="footer" class="bg-dark text-green-light">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-12 col-sm-12 col-md-12 col-lg-4 order-lg-1 social-icons">
+			<div class="copyright col-sm-12 col-sm-12 col-md-12 col-lg-4 order-lg-1 social-icons">
 				
 				<p class="text-white text-left">
 					BioPrime Agri Industries Inc<br/>
